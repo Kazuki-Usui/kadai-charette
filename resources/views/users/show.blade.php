@@ -30,7 +30,7 @@
             @endif
             @if (count($microposts) > 0)
             <div class="form-group">
-                @include('charette.microposts', ['microposts' => $microposts])
+                @include('microposts.microposts', ['microposts' => $microposts])
                 </div>
             @endif
         </div>
